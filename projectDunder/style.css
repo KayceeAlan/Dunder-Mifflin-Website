@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Gudea, sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./_fhdminimal256.jpg);
+    background-size: cover;
+    color: black;
+    font-size: 80px;
+}
+header img{
+    height: 50vh;
+}
+
+.about{
+    height: 600vh;
+    display: flex;
+}
+
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin: 0!important;
+}
+
+.about-pages{
+    width: 50%;
+    color: white;
+}
+
+.about-pages div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages div> p{
+    width: 80%;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.about-pages div> h2{
+    font-size: 64px;
+}
+
+.about-pages div> img{
+    height: 60%;
+    border-radius: 30px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.25);
+}
+
+.about-pages div:nth-child(1){
+    background-color: #1A1C24;
+}
+.about-pages div:nth-child(2){
+    background-color: #65574E;
+}
+.about-pages div:nth-child(3){
+    background-color: #215EA4;
+}
+.about-pages div:nth-child(4){
+    background-color: #887360;
+}
+.about-pages div:nth-child(5){
+    background-color: #29366A;
+}
+.about-pages div:nth-child(6){
+    background-color: #02704A;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    font-size: 50px;
+}
